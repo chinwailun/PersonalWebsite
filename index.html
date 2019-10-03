@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Portfolio</title>
+
+    <!--for modal fade-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/lightbox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
+    <!--someone hosted this code somewhere (called CDN),so we provide link -->
+    <!--If you don't want to download and host jQuery yourself, you can include it from a CDN (Content Delivery Network). -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <!--adding bootrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  </head>
+
+  <body>
+
+
+    <!--=======================adding superslides files========================-->
+    <div id="slides">
+
+      <div class="overlay"></div>
+
+      <div class="slides-container">
+        <img src="img/slide1.jpg" alt="">
+        <img src="img/slide2.jpg" alt="">
+        <img src="img/slide3.jpg" alt="">
+      </div>
+
+      <div class="titleMessage">
+          <div class="heading">
+            <h2>Hello, World!</h2>
+            <p class="main">  I'm Chin Wai Lun  </p>
+            <p class="sub typed"></p>
+          </div>
+      </div>
+
+      <!--add next and previous buttons-->
+      <nav class="slides-navigation">
+        <a href="#" class="next"></a>
+        <a href="#" class="prev"></a>
+      </nav>
+
+    </div>
+  <!-- ================end of slider ===================== -->
+
+  <!--=======================adding navigation========================-->
+    <nav id="navigation" class="navbar navbar-expand-lg ">
+      <a class="navbar-brand" href="#">Chin Wai Lun</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#portfolio">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact" tabindex="-1" aria-disabled="true">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </nav>
+  <!-- ================end of navigation===================== -->
+
+  <!--=======================about section========================-->
+    <div id="about" class="section">
+      <div class="container"> <!--a boostrap class, container add spacing between images-->
+        <div class="row"> <!--row is a class of boostrap-->
+              <div class="col-md-4"> <!--boostrap grid system styling-->
+                <img class="aboutImage" src="img/about.jpg">
+              </div>
+              <div class="col-md-8">
+                <p>Hi there! I'm Wai Lun from Ipoh, Perak. I am currently pursuing my study in final year first semester in
+                  Computer Science program. </p>
+                <p>I am a person who is interested in various domains of computer sciences
+                  and always motivated in learning and practicing new technology.
+                  I first learned how to program back 3 years ago. I am now 23 years old and
+                  I am still very passionate about programming.
+                </p>
+                <p>When I'm not coding, I enjoy jogging 🏃, hiking ⛰ and GYM 🏋.
+                  And I love meeting more people and creating new opportunities.️</p>
+              </div>
+        </div>
+      </div>
+    </div>
+  <!-- ================end of about section===================== -->
+
+<!--=======================Skills========================-->
+    <div id="skills" class="skillsSection section">
+      <div class="container"> <!--container add spacing between images-->
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <h2>TECHNICAL SKILLS</h2>
+            <p>A representation of my proficiency in each skills</p>
+          </div>
+          <div class="owl-carousel owl-theme">
+
+            <div class="skill">
+              <span class="chart" data-percent="75">
+                <span class="percent">75</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>C++</h4>
+              <p>The first programming language I learned</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>Java</h4>
+              <p>Used for my Android applications</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">70</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>Python</h4>
+              <p>Automate the boring stuff</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="80">
+                <span class="percent">80</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>Visual Basic for Applications</h4>
+              <p>Automate tasks in Excel</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="25">
+                <span class="percent">25</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>LabVIEW</h4>
+              <p>A new skill I am learning</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="81">
+                <span class="percent">81</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>HTML</h4>
+              <p>Transform idea into website</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="67">
+                <span class="percent">67</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>PHP</h4>
+              <p>Create dynamic web content</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="70">
+                <span class="percent">70</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>CSS</h4>
+              <p>Beautify the boring pages</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="64">
+                <span class="percent">64</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>JavaScript</h4>
+              <p>Used for web development</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="76">
+                <span class="percent">76</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>MySQL</h4>
+              <p>Used as database in most of my web-based applications</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="57">
+                <span class="percent">57</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>Selenium</h4>
+              <p>Used for automation in web applications</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="62">
+                <span class="percent">62</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>Microsoft PowerBI</h4>
+              <p>Create interative dashboard</p>
+            </div>
+            <div class="skill">
+              <span class="chart" data-percent="54">
+                <span class="percent">54</span>
+                <canvas width="152" height="152"></canvas>
+              </span>
+              <h4>UiPath</h4>
+              <p>Used in Windows desktop automation</p>
+            </div>
+
+        </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  <!-- ================end of skills===================== -->
+
+
+
+<!--===================portfolio ================================-->
+    <div id="portfolio" class="section">
+      <div class="container"> <!--container add spacing between images-->
+        <div class="row">
+                          <div class="heading">
+                            <h2>PORTFOLIO</h2>
+                          </div>
+                          <div class="filter">
+                            <ul id="filters">
+                              <li><a href="#" data-filter=".education" class="current" id="myEducation" >Education</a></li>
+                              <li><a href="#" data-filter=".experience" >Experience</a></li>
+                              <li><a href="#" data-filter=".projects">Projects Completed</a></li>
+                              <li><a href="#" data-filter=".achievements">Achievements</a></li>
+                              <li><a href="#" data-filter=".activities">Activities</a></li>
+                              <li><a href="#" data-filter=".certifications">Certifications</a></li>
+                            </ul>
+                          </div>
+                          <div class="itemsContainer">
+
+                    					<ul class="items">
+
+                    						<li class="education">
+                    							<div class="item">
+                                    <table>
+                                      <tr>
+                                        <td>
+
+                                                  <div class="school">
+                              								   <img src="img/USMLogo.png">
+                                               </div>
+
+
+                                        </td>
+                                        <td>
+                                               <div class="ImgDesc">
+                                               <h3>Universiti Sains Malaysia</h3>
+                                               <h6>Bachelor of Computer Science</h6>
+                                               <ul >
+                                 								  <li>✔️Major in Software Engineering</li>
+                                 								  <li>✔️Minor in Management</li>
+                                 								  <li>✔️2016 - Present</li>
+                                 								  <li>✔️current CGPA of 3.75</li>
+                                               </ul>
+                                             </div>
+                                       </td>
+                                     </tr>
+                                   </table>
+                                    <hr>
+                    						</li>
+
+                                <li class="education">
+                    							<div class="item">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                                <div class="school">
+                              								   <img src="img/ShingChungLogo.jpg">
+                                               </div>
+                                        </td>
+                                        <td>
+                                               <div class="ImgDesc">
+                                               <h3>SMJK Shing Chung</h3>
+                                               <h6>Sijil Tinggi Persekolahan Malaysia (SPTM)</h6>
+                                               <ul >
+                                 								  <li>✔️Science Stream</li>
+                                 								  <li>✔️2014 - 2015</li>
+                                 								  <li>✔️CGPA: 3.92</li>
+                                                </ul>
+                                                <h6>Sijil Pelajaran Malaysia (SPM)</h6>
+                                                <ul >
+                                    							<li>✔️Science Stream</li>
+                                    							<li>✔️2012 - 2013</li>
+                                    							<li>✔️10As (6A+ 3A 1A-)</li>
+                                               </ul>
+                                             </div>
+                                       </td>
+                                     </tr>
+                                   </table>
+                                    <hr>
+                    						</li>
+
+
+                                <li class="experience">
+                    							<div class="item">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                                <div class="school">
+                              								   <img src="img/intelLogo.png">
+                                               </div>
+                                        </td>
+                                        <td>
+                                               <div class="ImgDesc">
+                                               <h3>Intel Corporation</h3>
+                                               <h5>Finance Automation Intern</h5>
+                                               <h6>Feb 2019 - Aug 2019</h6>
+                                               <ul >
+                                 								  <li>✔️Improved efficiency of Shared Service Center through developing and deploying Robotic Process Automation solution.</li>
+                                 								  <li>✔️Cultivate innovation culture in Shared Service Center by Optimized Digital Transformation program</li>
+                                 								  <li>✔️Proactively self-learned various programming languages and tools such as VBA, Python, SAP Scripting, UiPath and Power BI to explore optimized finance automation solution.</li>
+                                                  <br>
+                                                  <li>
+                                                    <div class="gallery">
+                                                      <a href="img/intel1.jpg" data-lightbox="mygallery1"><img src="img/intel1-small.jpg"></a>
+                                                      <a href="img/intel2.jpg" data-lightbox="mygallery1"><img src="img/intel2-small.jpg"></a>
+                                                      <a href="img/intel3.jpg" data-lightbox="mygallery1"><img src="img/intel3-small.jpg"></a>
+                                                      <a href="img/intel4.jpg" data-lightbox="mygallery1"><img src="img/intel4-small.jpg"></a>
+                                                      <a href="img/intel5.jpg" data-lightbox="mygallery1"><img src="img/intel5-small.jpg"></a>
+                                                    </div>
+                                                  </li>
+                                               </ul>
+                                             </div>
+                                       </td>
+                                     </tr>
+                                   </table>
+                                    <hr>
+                    						</li>
+
+                                <li class="projects">
+                    							<div class="item">
+                                    <h5>AUNT Know : Tourist Android Guide</h5>
+                                    <p>An Android-based mobile application that provides informative data for user’s trip reference and analyze user profiles to provide adequate recommendation.</p>
+                                    <br>
+                                    <h5>Memory Matching TD</h5>
+                                    <p>An innovative Android game which is a combination of memory matching and tower defense game. The user will be given a certain amount of time to memorize the pictures beforehand. This game works by requiring the player to defend the tower against the monsters by picking the matched pictures.</p>
+                                    <br>
+                                    <h5>Tonality</h5>
+                                    <p>A web-based application that provides music streaming service in which users are able to browse music and upload songs to the web application. It consists of a recommendation system, which can "understand" the information being searched by the users and thus provide recommendation to the users.</p>
+                                    <br>
+                                    <h5>Memory allocation scheme and algorithm</h5>
+                                    <p>A Java event-driven stimulation program to study the performance of each storage placement strategy. There are 5 major modules in this project which are first-fit and best-fit allocations for fixed partition and first-fit, best-fit and worst-fit allocations for dynamic partition.</p>
+                                    <br>
+                                    <h5>PC World Computer Shop</h5>
+                                    <p>A database system which is able to improve the performance of data storage and retrieval, promote data integrity and security with user-friendly interface. The project is developed using Oracle database.</p>
+                                    <hr>
+                    						</li>
+
+                                <li class="achievements">
+                    							<div class="item">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                                <div class="school">
+                              								   <img src="img/csLogo.jpg">
+                                               </div>
+                                        </td>
+                                        <td>
+                                               <div class="ImgDesc">
+                                               <h3>Dean List Award</h3>
+                                               <h6>Year 1 - Year 3</h6>
+                                               <p>An award for students who have achieved a grade-point average of at least 3.50.</p>
+                                             </div>
+                                       </td>
+                                     </tr>
+                                   </table>
+                                    <hr>
+                    						</li>
+
+                                <li class="achievements">
+                    							<div class="item">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                                <div class="school">
+                              								   <img src="img/NILogo.png">
+                                               </div>
+                                        </td>
+                                        <td>
+                                               <div class="ImgDesc">
+                                               <h3>NI Autonomous Robotics Competition 2019 (NI ARC)</h3>
+                                               <h6>Participant</h6>
+                                               <p>✔️Designed and programed hardware to gather specific materials for research, both autonomously and manually within an allotted time limit.<br>
+                                               ✔️Successfully developed a robotic car which can demonstrate object handling with manual and autonomous control.</P>
+                                             </div>
+                                       </td>
+                                     </tr>
+                                   </table>
+                                    <hr>
+                    						</li>
+
+                                <li class="activities">
+                    							<div class="item">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                                <div class="school">
+                              								   <img src="img/mppLogo.jpg">
+                                               </div>
+                                        </td>
+                                        <td>
+                                               <div class="ImgDesc">
+                                               <h3>Students' Representative Council (MPP) 2017/2018 </h3>
+                                               <h5>Executive Committee</h5>
+                                               <h6>Oct 2017 - Nov 2018</h6>
+                                               <ul >
+                                 								  <li>✔️Kept current updates on all issues the Students' Representative Council had submitted to make sure that each one had been resolved in a timely manner.</li>
+                                 								  <li>✔️Facilitated and retained positive interactions between students and the University's Management Committee.</li>
+                                 								  <li>✔️Ensured the students' rights and welfare matters in the university are well taken care of.</li>
+                                                  <br>
+                                                  <li>
+                                                    <div class="gallery">
+                                                      <a href="img/Img1.jpg" data-lightbox="mygallery2"><img src="img/Img1-small.jpg"></a>
+                                                      <a href="img/Img2.jpg" data-lightbox="mygallery2"><img src="img/Img2-small.jpg"></a>
+                                                      <a href="img/Img3.jpg" data-lightbox="mygallery2"><img src="img/Img3-small.jpg"></a>
+                                                      <a href="img/Img4.jpg" data-lightbox="mygallery2"><img src="img/Img4-small.jpg"></a>
+                                                      <a href="img/Img5.jpg" data-lightbox="mygallery2"><img src="img/Img5-small.jpg"></a>
+                                                    </div>
+                                                  </li>
+
+
+
+                                               </ul>
+                                             </div>
+                                       </td>
+                                     </tr>
+                                   </table>
+                                    <hr>
+                    						</li>
+
+                                <li class="activities">
+                    							<div class="item">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                                <div class="school">
+                              								   <img src="img/USMLogo.png">
+                                               </div>
+                                        </td>
+                                        <td>
+                                               <div class="ImgDesc">
+                                               <h3>Pembimbing Program Siswa Lestari (PPSL)</h3>
+                                               <h5>Student Mentor</h5>
+                                               <h6>2017, 2018, 2019</h6>
+                                               <ul >
+                                 								  <li>✔️Went through the gruelling camp program (rafting in Sungai Perak, midnight jungle trekking, walked approximately 32 km with the team, team building under the scorching sun for 4 solid hours etc.) and have been trained to be resilient when our main job is only to take care of the new students during orientation week.</li>
+                                 								  <li>✔️Assisted in the preparation of orientation activities and materials.</li>
+                                 								  <li>✔️Facilitated discussions with new students on sensitive issues.</li>
+                                                  <br>
+                                                  <li>
+                                                    <div class="gallery">
+                                                      <a href="img/ppsl1.jpg" data-lightbox="mygallery3"><img src="img/ppsl1-small.jpg"></a>
+                                                      <a href="img/ppsl2.jpg" data-lightbox="mygallery3"><img src="img/ppsl2-small.jpg"></a>
+                                                      <a href="img/ppsl3.jpg" data-lightbox="mygallery3"><img src="img/ppsl3-small.jpg"></a>
+                                                      <a href="img/ppsl4.jpg" data-lightbox="mygallery3"><img src="img/ppsl4-small.jpg"></a>
+                                                      <a href="img/ppsl5.jpg" data-lightbox="mygallery3"><img src="img/ppsl5-small.jpg"></a>
+                                                    </div>
+                                                  </li>
+                                               </ul>
+                                             </div>
+                                       </td>
+                                     </tr>
+                                   </table>
+                                    <hr>
+                    						</li>
+
+                                <li class="certifications">
+                    							<div class="item">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                                <div class="school">
+                              								   <img src="img/ireb.png">
+                                               </div>
+                                        </td>
+                                        <td>
+                                               <div class="ImgDesc">
+                                               <h4>Certified Professional for Requirements Engineering Foundation Level (CPRE-FL)</h4>
+                                               <ul >
+                                 								  <li>✔️Certified by Malaysian Software Testing Board</li>
+                                 								  <li>✔️Issued on Jun 2018</li>
+                                               </ul>
+                                               <br>
+                                               <a href="https://www.ireb.org/en/service/cpre-registry-list/6699" target="_blank" class="btn btn-primary btn-xs" id="hoverButton">Certificate</a>
+                                             </div>
+                                       </td>
+                                     </tr>
+                                   </table>
+                                    <hr>
+                    						</li>
+
+                                <li class="certifications">
+                    							<div class="item">
+                                    <table>
+                                      <tr>
+                                        <td>
+                                                <div class="school">
+                              								   <img src="img/harvardX.png">
+                                               </div>
+                                        </td>
+                                        <td>
+                                               <div class="ImgDesc">
+                                               <h4>HarvardX Data Science: Machine Learning Certificate</h4>
+                                               <ul >
+                                 								  <li>✔️Certified by HarvardX - An Online Learning Initiative by Harvard University through edx</li>
+                                 								  <li>✔️Issued on Jun 2019</li>
+                                               </ul>
+                                               <br>
+                            <a href="https://courses.edx.org/certificates/ecf27c71a2794ccabe03d89eb8fb639a" target="_blank" class="btn btn-primary btn-xs" id="hoverButton">Certificate</a>
+                                             </div>
+                                       </td>
+                                     </tr>
+                                   </table>
+                                    <hr>
+                    						</li>
+                    					</ul>
+
+                    				</div>
+
+        </div>
+      </div>
+    </div>
+
+    <div id="contact" class="contactSection section">
+      <div class="col-md-12 text-center">
+        <p class="subHeading">Like what you see?</p>
+        <h2>I'd love to hear from you!</h2>
+        <a href="mailTo:chinwailun927@gmail.com" class="contactButton">GET IN TOUCH</a>
+
+      </div>
+    </div>
+
+    <div class="copyrightSection">
+      <div class="col-md-12 text-center">
+        <p>&copy; Copyright Chin Wai Lun 2019</p>
+
+      </div>
+
+    </div>
+
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+    <script src="js/jquery.superslides.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="https://unpkg.com/isotope-layout@3.0.6/dist/isotope.pkgd.min.js"></script>
+    <script src="js/script.js"></script>
+
+
+
+
+
+
+  </body>
+</html>
